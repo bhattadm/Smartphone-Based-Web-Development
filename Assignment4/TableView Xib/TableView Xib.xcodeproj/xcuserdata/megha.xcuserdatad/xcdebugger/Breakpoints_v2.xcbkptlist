@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "CF12F6FE-8CF8-4A3F-9062-D9F88DB34515"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "869384DF-F130-4AC1-9B0C-0C543071D6FF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TableView Xib/TableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "TableViewCell"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "869384DF-F130-4AC1-9B0C-0C543071D6FF - f5083e56a905727d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TableView_Xib.TableViewCell.__deallocating_deinit"
+                  moduleName = "TableView Xib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kusha/Desktop/Smartphone-Based-Web-Development/Assignment4/TableView%20Xib/TableView%20Xib/TableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "869384DF-F130-4AC1-9B0C-0C543071D6FF - 404700a1b4e5c16e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TableView_Xib.TableViewCell.__allocating_init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; TableView_Xib.TableViewCell"
+                  moduleName = "TableView Xib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kusha/Desktop/Smartphone-Based-Web-Development/Assignment4/TableView%20Xib/TableView%20Xib/TableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "869384DF-F130-4AC1-9B0C-0C543071D6FF - 987b5d98c47b9358"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TableView_Xib.TableViewCell.init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; TableView_Xib.TableViewCell"
+                  moduleName = "TableView Xib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kusha/Desktop/Smartphone-Based-Web-Development/Assignment4/TableView%20Xib/TableView%20Xib/TableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "96">
+               </Location>
+               <Location
+                  uuid = "869384DF-F130-4AC1-9B0C-0C543071D6FF - 64e5c47536d5bcdb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TableView_Xib.TableViewCell.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;TableView_Xib.TableViewCell&gt;"
+                  moduleName = "TableView Xib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kusha/Desktop/Smartphone-Based-Web-Development/Assignment4/TableView%20Xib/TableView%20Xib/TableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "869384DF-F130-4AC1-9B0C-0C543071D6FF - 14bd7deac141bcdc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TableView_Xib.TableViewCell.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;TableView_Xib.TableViewCell&gt;"
+                  moduleName = "TableView Xib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kusha/Desktop/Smartphone-Based-Web-Development/Assignment4/TableView%20Xib/TableView%20Xib/TableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "68">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
