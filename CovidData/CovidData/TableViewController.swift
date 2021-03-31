@@ -14,16 +14,20 @@ import RealmSwift
 import PromiseKit
 
 class TableViewController: UITableViewController {
-
-    //@IBOutlet weak var tblView: UITableView!
-    //    @IBOutlet weak var tblCovid: UITableViewCell!
-    @IBOutlet weak var tblView: UITableView!
+//    @IBOutlet weak var tblView: UITableView!
+    @IBOutlet var tblView: UITableView!
+    
+//    @IBOutlet weak var tblViewT: UITableView!
+//    //@IBOutlet weak var tblView: UITableView!
+   
+////    @IBOutlet weak var tblView: UITableView!
     var covidArr: [Data] = [Data]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        
+//        tblView.delegate = self
+//        tblView.dataSource = self
+//        getData()
     }
     override func viewWillAppear(_ animated: Bool) {
 //       self.addStockToDB()
@@ -40,14 +44,15 @@ class TableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = Bundle.main.loadNibNamed("TableViewCell", owner: self, options: nil)?.first as! TableViewCell
         cell.lblState.text = "\(covidArr[indexPath.row].state)"
-        cell.lblCases.text = "$\(covidArr[indexPath.row].cases)"
-        cell.lblTotal.text = "$\(covidArr[indexPath.row].total)"
+        cell.lblCases.text = "\(covidArr[indexPath.row].cases)"
+        cell.lblTotal.text = "\(covidArr[indexPath.row].total)"
         return cell
     }
     
     
     
 
+    
 func getUrl() -> String{
      var url = api_url
      return url
@@ -63,7 +68,8 @@ func getData(){
                    for item in data {
                        self.covidArr.append(item)
                    }
-                   self.tblView.reloadData()
+//                   self.tblView.reloadData()
+                self.tblView.reloadData()
                }
                .catch { (error) in
                    print("Error in getting all the stock values \(error)")
